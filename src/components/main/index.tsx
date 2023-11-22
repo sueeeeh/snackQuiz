@@ -9,7 +9,7 @@ const Main = () => {
         <S.MainLayout>
         <S.DesignTxtBox>{DESIGN}</S.DesignTxtBox>
         <S.LowRow>
-            <S.GameLink to='/gameStart'>
+            <S.GameLink to='/game/choose'>
                 {GAMELINK}
                 <S.Arrow xmlns="http://www.w3.org/2000/svg" width="36" height="58" viewBox="0 0 36 58" fill="none">
                     <rect x="7.07117" y="57.071" width="10" height="40" transform="rotate(-135 7.07117 57.071)" fill="#030202"/>
